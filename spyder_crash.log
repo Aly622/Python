@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3062, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 2964, in run_spyder
+    main.setup()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 814, in setup
+    self.toolbarslist.append(self.workingdirectory.toolbar)
+AttributeError: 'WorkingDirectory' object has no attribute 'toolbar'
